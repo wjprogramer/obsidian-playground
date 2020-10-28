@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "0fb13d8e84bb17cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "c923855fd62d154b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/master/Hello.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "2f185e6761bac477",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/master/Hello.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6698c019702edc16",
+    "type": "split",
+    "children": [
+      {
+        "id": "e936a8d6487e16ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ffa8dbe0035a0e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9eeccbdf7c6b137f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          },
+          {
+            "id": "afa9983d42c0a083",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba025ee8fcaa12f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "adf07f8f63c10409",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73da2e053e249bd1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/master/Hello.md"
+              }
+            }
+          },
+          {
+            "id": "b2225eec00a7689d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "notes/master/Hello.md",
+    "assets/images/deno.jpg",
+    "Hello.md",
+    "notes/Some.md",
+    "Next Step.md",
+    "notes/Untitled.md",
+    "Untitled.md"
+  ]
+}
