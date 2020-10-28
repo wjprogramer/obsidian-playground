@@ -30,6 +30,11 @@
 /*     8.1. Tag custom colours
 /***** *****/
 
+/* Custom By Jay */
+rt {
+  font-size: 12px;
+}
+
 /* 1. Font */
 body {
   /* font stacks taken directly from Notion */
@@ -60,7 +65,8 @@ body.theme-dark {
 
   --text-rgb: 255, 255, 255;
 
-  --text-highlight-bg: rgb(89, 86, 59);
+  /*--text-highlight-bg: rgb(89, 86, 59); */
+  --text-highlight-bg: #8a855b; 
   --text-selection: hsla(211, 100%, 50%, 0.2);
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -322,12 +328,12 @@ strong,
 /* table headers and first column styling */
 .markdown-preview-view th:first-child,
 .markdown-preview-view td:first-child {
-  border-left: none;
+  /*border-left: none;*/
 }
 
 .markdown-preview-view th:last-child,
 .markdown-preview-view td:last-child {
-  border-right: none;
+  /*border-right: none;*/
 }
 
 .markdown-preview-view th {
@@ -395,16 +401,16 @@ strong,
 /* 4.7. Blockquotes */
 .markdown-preview-view blockquote,
 .cm-s-obsidian pre.HyperMD-quote-1 {
-  border: none;
-  border-left: 3px solid currentcolor;
+  /*border: none;*/
+  /*border-left: 3px solid currentcolor;*/
 }
 
 /* for some reason messing with the padding and size like this caused weirdness
   with the editor mode cursor position. So just preview for now */
 .markdown-preview-view blockquote {
-  padding: 0 0.9em;
-  font-size: 1.2em;
-  margin: 3px 2px;
+  padding: 0.8em 1.2em;
+  /*font-size: 1.2em;*/
+  margin: 10px 10px 0px 10px;
 }
 
 /* 4.8. Code */
@@ -416,7 +422,7 @@ strong,
 }
 
 .markdown-preview-view pre>code {
-  padding: 24px 6px 24px 10px;
+  padding: 6px 6px 6px 10px;
   color: var(--text-normal);
   display: block;
   overflow: auto;
