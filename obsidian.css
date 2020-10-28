@@ -35,6 +35,13 @@ rt {
   font-size: 12px;
 }
 
+.markdown-preview-view h1 {color: var(--h1ys);}
+.markdown-preview-view h2 {color: var(--h2ys);}
+.markdown-preview-view h3 {color: var(--h3ys);}
+.markdown-preview-view h4 {color: var(--h4ys);}
+.markdown-preview-view h5 {color: var(--h5ys);}
+.markdown-preview-view h6 {color: var(--h6ys);}
+
 /* 1. Font */
 body {
   /* font stacks taken directly from Notion */
@@ -51,7 +58,7 @@ body.theme-dark {
   --hue: 203;
   --sat: 8%;
   --interactive-accent-rgb: 46, 170, 220;
-  --code: #EB5757;
+  --code: #c2c2c2;
 
   --opacity-translucency: 0.7;
 }
@@ -90,6 +97,14 @@ body.theme-dark {
   --background-purple: rgb(68, 63, 87);
   --background-pink: rgb(83, 59, 76);
   --background-red: rgb(89, 65, 65);
+
+  /*titles*/
+  --h1ys: #ffc9f6;
+  --h2ys: #ffc9f6;
+  --h3ys: #ffc9f6;
+  --h4ys: #ffc9f6;
+  --h5ys: #ffc9f6;
+  --h6ys: #ffc9f6;
 }
 
 /* 2.3. Light theme */
@@ -125,6 +140,14 @@ body.theme-dark {
   --background-purple: rgb(234, 228, 242);
   --background-pink: rgb(244, 223, 235);
   --background-red: rgb(251, 228, 228);
+
+  /*Titles*/
+  --h1ys: #0060dd;
+  --h2ys: #0060dd;
+  --h3ys: #0060dd;
+  --h4ys: #0060dd;
+  --h5ys: #0060dd;
+  --h6ys: #0060dd;
 }
 
 /* 2.4. Common (calculated) */
