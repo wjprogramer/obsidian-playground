@@ -51,6 +51,8 @@ H<sub>2</sub>O
 
 [link](https://xxx.com)
 
+路徑有空白 要使用 `%20`
+
 ![[../../assets/images/deno.jpg]]
 
 ![image alt](../../assets/images/deno.jpg)
